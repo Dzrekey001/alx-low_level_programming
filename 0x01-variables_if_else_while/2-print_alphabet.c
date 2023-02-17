@@ -8,7 +8,7 @@ int main(void)
 {
 	int i;
 
-	i = 97
+	i = 9;
 		;
 	while (i <= 122)
 	{
@@ -17,6 +17,8 @@ int main(void)
 		putchar(a);
 		i++;
 	}
+
+	putchar('\n');
 
 	return (0);
 }
