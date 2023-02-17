@@ -11,13 +11,12 @@ int main(void)
 	char e;
 
 	i = 97;
-	a = q;
-	b = e;
+	
 
 	while (i <= 122)
 	{	char i;
 
-		if (i != a || i != b)
+		if (i != q || i != e)
 
 			putchar(i);
 	}
