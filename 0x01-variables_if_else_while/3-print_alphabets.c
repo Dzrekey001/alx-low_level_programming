@@ -16,17 +16,21 @@ int main(void)
 	while (i <= 122)
 	{
 
-		char i;
+		char a;
 
-		putchar(i);
+		a = i;
+
+		putchar(a);
 
 		i++;
 	}
 	while (b <= 90)
 	{
-		char i;
+		char a;
 
-		putchar(i);
+		a = b;
+
+		putchar(a);
 
 		b++;
 	}
