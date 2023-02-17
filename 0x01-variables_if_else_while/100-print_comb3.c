@@ -30,5 +30,6 @@ int main(void)
 		y++;
 
 	}
+	putchar('\n');
 	return (0);
 }
