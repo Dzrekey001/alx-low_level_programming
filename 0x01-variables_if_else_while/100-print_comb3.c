@@ -9,15 +9,15 @@ int main(void)
 {
 	int i;
 
-	for (i = '0'; i >= '9'; i++)
+	for (i = '0'; i <= '9'; i++)
 	{
 		int x;
 
 		x = '1';
-
-		for (i = '0'; i >= '9'; i++)
+ 
+		for (x = '0'; x <= '9'; x++)
 		{
-			if (!(i == '8' && x == '9'))
+			if (!(x == '8' && x == '9'))
 			{
 				putchar(i);
 				putchar(x);
@@ -29,4 +29,5 @@ int main(void)
 		}
 
 	}
+	return (0);
 }
