@@ -1,9 +1,11 @@
 #include <stdio.h>
 
-/*Programming is like building a multilingual puzzle,*/
+/**
+ * Programming is like building a multilingual puzzle,
+ */
 
 int main(void)
 {
-	puts("Programmin is like building a multilingual puzzle\n");
+	puts("Programming is like building a multilingual puzzle");
 	return (0);
 }
