@@ -8,25 +8,26 @@
 int main(void)
 {
 	int i;
+	int x;
+	int y;
 
-	for (i = '0'; i <= '9'; i++)
+	y = '1';
+
+	for (i = '0'; i <= '8'; i++)
 	{
-		int x;
 
-		x = '1';
- 
-		for (x = '0'; x <= '9'; x++)
+		for (x=y; x <= '9'; x++)
 		{
-			if (!(x == '8' && x == '9'))
+			putchar(i);
+			putchar(x);
+
+			if (!(i == '8' && x == '9'))
 			{
-				putchar(i);
-				putchar(x);
 				putchar(',');
 				putchar(' ');
-				x++;
 			}
-
 		}
+		y++;
 
 	}
 	return (0);
