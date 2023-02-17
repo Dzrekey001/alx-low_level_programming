@@ -7,13 +7,17 @@
 int main(void)
 {
 	int i;
+	char q;
+	char e;
 
 	i = 97;
+	a = q;
+	b = e;
 
 	while (i <= 122)
 	{	char i;
 
-		if (i != "e" || i != "q")
+		if (i != a || i != b)
 
 			putchar(i);
 	}
