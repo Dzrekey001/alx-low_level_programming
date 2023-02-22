@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * jack_bauer - output the time from 
- * Description:a function that prints minute starting from 
+ * jack_bauer - output the time from
+ * Description:a function that prints minute starting from
  * Return: Always 0.
  */
 
