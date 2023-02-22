@@ -19,7 +19,7 @@ int _isalpha(int c)
 	{
 		for (upper_c = 'A'; upper_c <= 'Z'; upper_c++)
 		{
-			if (lower_c || upper_c)
+			if (lower_c == c || upper_c == c)
 				j = 1;
 		}
 	}
