@@ -10,14 +10,18 @@
 int _isalpha(int c)
 {
 	int j;
-	int lower;
+	int upper_c;
+	int lower_c;
 
-	lower = 0;
+	j = 0;
 
-	for (j = 'a'; j <= 'Z'; j++)
+	for (lower_c = 'a'; lower_c <= 'z'; lower_c++)
 	{
-		if (j == c)
-			lower = 1;
+		for (upper_c = 'A'; upper_c <= 'Z'; upper_c++)
+		{
+			if (lower_c || upper_c)
+				j = 1;
+		}
 	}
-	return (lower);
+	return (j);
 }
