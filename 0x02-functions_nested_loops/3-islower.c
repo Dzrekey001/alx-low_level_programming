@@ -10,12 +10,16 @@
 int _islower(int c)
 {
 	int j;
+	int lower;
+
+	lower = 0;
 
 	for (j = 'a'; j <= 'z'; j++)
 	{
 		if (j == c)
-			return (1);
+			lower = 1;
 		else
-			return (0);
+			lower = 0;
 	}
+	return (lower);
 }
