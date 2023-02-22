@@ -3,7 +3,7 @@
  * print_last_digit - print last digit
  *
  * @n: input paremeter
- *
+ * Description:  a function that prints the last digit of a number
  * Return: Always 0.
  */
 int print_last_digit(int n)
@@ -14,6 +14,6 @@ int print_last_digit(int n)
 		i = (n % 10) * -1;
 	else
 		i = n % 10;
-	_putchar(i);
+	_putchar(i + '0');
 	return (i);
 }
