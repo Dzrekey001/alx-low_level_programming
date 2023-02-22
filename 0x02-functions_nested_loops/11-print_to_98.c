@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
  * print_to_98 - print number from n to 98
+ * @n: input paremeter
  * Description: prints all natural numbers from n to 98
  */
 void print_to_98(int n)
