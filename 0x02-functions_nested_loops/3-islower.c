@@ -18,8 +18,6 @@ int _islower(int c)
 	{
 		if (j == c)
 			lower = 1;
-		else
-			lower = 0;
 	}
 	return (lower);
 }
