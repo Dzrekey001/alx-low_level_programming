@@ -7,62 +7,49 @@
 
 void print_times_table(int n)
 {
-	if (!(n > 15 || n < 0))
-	{
-		int i;
-		int j;
-		int m;
+	int i, j;
 
+	if (n > 0 && n < 15)
+	{
 		for (i = 0; i <= n; i++)
 		{
-			for (j = 0; j <= n; j++)
-			{
-
-				putformat(i, j);
-			}
+			_putchar('0');
+			for (j = 1; j <= n; j++)
+				putformat(i * j);
 			_putchar('\n');
 		}
 	}
-
 }
+
 /**
- * putformat - format the time table
- *
- * @m: input paremeter
+ * putformat - format output
+ * @n: input paremeter
+ * Return: nothing
  */
-
-
-void putformat(int i; int j)
+void putformat(int n)
 {
-	m = i * j;
-
-	if (m < 10)
+	if (n <= 9)
 	{
-		if (!(j == 0))
-		{
-			_putchar(' ');
-			_putchar(' ');
-			_putchar(' ');
-		}
-		_putchar(m + '0')
+		_putchar(',');
+		_putchar(' ');
+		_putchar(' ');
+		_putchar(' ');
+		_putchar(n + '0');
 	}
-	else if (m < 100)
+	else if (n > 9 && n <= 99)
 	{
+		_putchar(',');
 		_putchar(' ');
 		_putchar(' ');
-		_putchar((m / 10) + '0');
-		_putchar((m % 10) + '0');
+		_putchar(n / 10 + '0');
+		_putchar(n % 10 + '0');
 	}
 	else
 	{
+		_putchar(',');
 		_putchar(' ');
-		_putchar((m / 100) + '0');
-		_putchar((m / 10 % 10) + '0');
-		_putchar((m % 10) + '0');
+		_putchar(n / 100 + '0');
+		_putchar(n / 10 % 10 + '0');
+		_putchar(n % 10 + '0');
 	}
-		if (!(j >= n))
-		{
-			_putchar(',');
-		}
-
 }
