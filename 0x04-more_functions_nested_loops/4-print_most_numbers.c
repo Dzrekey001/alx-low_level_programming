@@ -8,11 +8,12 @@ void print_most_numbers(void)
 {
 	int j;
 
-	for (j = '0'; j <= '9'; j++)
+	for (j = 48; j <= 57; j++)
 	{
 		if (!(j == '2' || j == '4'))
 		{
 			_putchar(j);
 		}
 	}
+	_putchar('\n');
 }
