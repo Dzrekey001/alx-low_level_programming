@@ -22,7 +22,7 @@ int main(void)
 		fibbo[i] = fibbo[i - 1] + fibbo[i - 2];
 
 		if (i == 59)
-			printf("%ld\n", fibbo[i]);
+			printf("%ld", fibbo[i]);
 		else
 			printf("%ld, ", fibbo[i]);
 	}
