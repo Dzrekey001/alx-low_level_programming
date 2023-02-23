@@ -23,5 +23,6 @@ int _isdigit(int c)
 			continue;
 		}
 	}
+	_putchar('\n');
 	return (r);	
 }
