@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	long int fibbo[50];
 	int i;
+	long int fibbo[50];
 
 	fibbo[0] = 1;
 	fibbo[1] = 2;
