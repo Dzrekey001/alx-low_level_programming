@@ -15,7 +15,7 @@ int main(void)
 	fibbo[1] = 2;
 
 
-	printf("%ld , %ld ", fibbo[0], fibbo[1]);
+	printf("%ld, %ld ", fibbo[0], fibbo[1]);
 
 	for (i = 2; i <= 50; i++)
 	{
