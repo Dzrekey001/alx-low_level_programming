@@ -2,7 +2,7 @@
 /**
  * print_diagonal - draws a diagonal line
  * @n: number of time \ should be printed
- * Description: a function that draws a diagonal line 
+ * Description: a function that draws a diagonal line
  */
 
 void print_diagonal(int n)
