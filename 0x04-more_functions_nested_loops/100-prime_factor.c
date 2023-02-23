@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - compute the higherst prime factor a number
- * Description:  a program that prints the largest prime factor 
+ * Description:  a program that prints the largest prime factor
  * Return: Always 0
  */
 
