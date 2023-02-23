@@ -13,8 +13,10 @@ int _isupper(int c)
 	{
 		if (c == i)
 			r = 1;
+			break;
 		else
 			r = 0;
+			continue;
 	}
 	return (r);
 }
