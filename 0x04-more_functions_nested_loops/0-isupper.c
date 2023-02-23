@@ -4,7 +4,10 @@
  * @c: expected to be a character
  * Description: function that checks for uppercase character
  * Return: 1 if c is upper else 0
+ * On error, -1 is returned, and errno is set appropriately.
  */
+
+
 int _isupper(int c)
 {
 	int r;
