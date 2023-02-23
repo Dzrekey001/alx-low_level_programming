@@ -7,15 +7,15 @@
  */
 int _isupper(int c)
 {
-	int i;
 	int r;
 
-	for (i = 'A'; i <= 'Z'; i++)
+	if (c >= 'A' || c <= 'Z')
 	{
-		if (c == i)
-			r = 1;
-		else
-			r = 0;
+		r = 1;
+	}
+	else
+	{
+		r = 0;
 	}
 	_putchar('\n');
 	return (r);
