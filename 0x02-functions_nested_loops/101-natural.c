@@ -18,8 +18,7 @@ int main(void)
 		if ((i % 3) == 0 || (i % 5) == 0)
 			result += i;
 	}
-	printf("%i", result);
-	_putchar('\n');
+	printf("%i\n", result);
 	return (0);
 }
 
