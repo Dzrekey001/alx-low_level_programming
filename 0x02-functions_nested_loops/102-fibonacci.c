@@ -21,8 +21,8 @@ int main(void)
 	{
 		fibbo[i] = fibbo[i - 1] + fibbo[i - 2];
 
-		if (i == 59)
-			printf("%ld", fibbo[i]);
+		if (i == 49)
+			printf("%ld\n", fibbo[i]);
 		else
 			printf("%ld, ", fibbo[i]);
 	}
