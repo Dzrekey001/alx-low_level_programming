@@ -9,11 +9,11 @@
 int main(void)
 {
 	long int fibbo[50];
+	int i;
 
 	fibbo[0] = 1;
 	fibbo[1] = 2;
 
-	int i;
 
 	printf("%ld , %ld ", fibbo[0], fibbo[1]);
 
