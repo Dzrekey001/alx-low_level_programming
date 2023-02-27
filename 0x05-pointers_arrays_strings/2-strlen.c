@@ -14,7 +14,7 @@ int _strlen(char *s)
 
 	_len = 0;
 
-	for (i = 0; i < sizeof(s) / sizeof(s[0]); i++)
+	for (i = 0; i < sizeof(*s) / sizeof(*s[1]); i++)
 	{
 		_len++;
 	}
