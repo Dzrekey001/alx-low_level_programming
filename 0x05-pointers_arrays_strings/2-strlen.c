@@ -9,7 +9,6 @@
 
 int _strlen(char *s)
 {
-	int i;
 	int _len;
 
 	_len = 0;
