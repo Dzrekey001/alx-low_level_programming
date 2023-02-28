@@ -53,3 +53,4 @@ int _atoi(char *s)
 	if (sign % 2 == 0)/* I */
 		return (result);
 	return (result * -1);/* J */
+}
