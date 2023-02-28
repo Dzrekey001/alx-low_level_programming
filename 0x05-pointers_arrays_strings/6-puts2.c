@@ -15,13 +15,13 @@ void puts2(char *str)
 	{
 		;
 	}
-	_putchar(s[0]);
+	_putchar(str[0]);
 
 	for (c = 1; c < str_len; c++)
 	{
 		if (c % 2 == 0)
 		{
-			_putchar(s[c]);
+			_putchar(str[c]);
 		}
 	}
 	_putchar('\n');
