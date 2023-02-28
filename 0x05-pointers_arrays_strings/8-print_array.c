@@ -21,6 +21,6 @@ void print_array(int *a, int n)
 
 	for (c = 0; n <= (str_len - 1) && c < n; c++)
 	{
-		printf("%i, ", a[c];
+		printf("%i, ", a[c]);
 	}
 }
