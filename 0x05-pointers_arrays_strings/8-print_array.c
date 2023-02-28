@@ -10,16 +10,9 @@
 
 void print_array(int *a, int n)
 {
-	int c, str_len;
+	int c;
 
-	str_len = 0;
-
-	for (str_len = 0; a[str_len]; str_len++)
-	{
-		;
-	}
-
-	for (c = 0; n <= (str_len - 1) && c < n; c++)
+	for (c = 0; c < n; c++)
 	{
 		if (c < n - 1)
 		{
