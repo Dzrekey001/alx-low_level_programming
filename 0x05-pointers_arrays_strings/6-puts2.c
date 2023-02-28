@@ -15,7 +15,10 @@ void puts2(char *str)
 	{
 		;
 	}
-	_putchar(str[0]);
+	if (str_len != 0)
+	{
+		_putchar(str[0]);
+	}
 
 	for (c = 1; c < str_len; c++)
 	{
