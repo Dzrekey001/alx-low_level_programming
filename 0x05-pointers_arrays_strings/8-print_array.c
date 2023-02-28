@@ -27,7 +27,7 @@ void print_array(int *a, int n)
 		}
 		else
 		{
-			print("%i ", a[c];
+			print("%i", a[c];
 		}
 	}
 }
