@@ -16,12 +16,12 @@ void print_array(int *a, int n)
 	{
 		if (c != n - 1)
 		{
-			printf("%i, ", a[c]);
+			printf("%d, ", a[c]);
 		}
 		else
 		{
-			printf("%i", a[c]);
+			printf("%d", a[c]);
 		}
 	}
-	_putchar('\n');
+	printf("\n");
 }
