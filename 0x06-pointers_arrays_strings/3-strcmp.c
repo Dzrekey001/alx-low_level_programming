@@ -9,37 +9,15 @@
  * Return: 0, or -1, or 1
  */
 
-int _strcmp(char *s1, char s2)
+int _strcmp(char *s1, char *s2)
 {
-	int len_s1, len_s2, temp, i;
+	char *str_one = s1;
+	char *str_two = s2;
 
-	for (len_s1 = 0; s1[len_s1] != '\0'; len_s1++)
+	while (*str_one != '\0' && *str_two != '\0' && *str_one == *str_two)
 	{
+		str_one++;
+		str_two++;
 	}
-	for (len_s2 = 0; s2[len_s2] != '\0'; len_s2++)
-	{
-	}
-	if (len_s1 > len_s2)
-	{
-		temp = -1;
-	}
-	else if (len_s1 < len_s2)
-	{
-		temp = 1;
-	}
-	else
-		for (i = 0; i <= len_s1; i++)
-		{
-			int n;
-
-			if (s1[i] == s2[i])
-			{
-				if (i == len_s1)
-					temp = 0;
-				else
-					continue;
-			}
-		}
-
-
+	return (*str_one - *str_two);
 }
