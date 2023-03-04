@@ -5,7 +5,7 @@
  * Return: s
  */
 
-char *rot13(char *rot)
+char *rot13(char *s)
 {
 	int a, b;
 	char input[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
