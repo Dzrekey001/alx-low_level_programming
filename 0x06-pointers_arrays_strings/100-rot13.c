@@ -9,7 +9,7 @@ char *rot13(char *s)
 {
 	int i;
 
-	for (i = 0; s[i] != 0 && (s[i] >= 'a' && s[i] <= 'z') ||
+	for (i = 0; s[i] != '\0' && (s[i] >= 'a' && s[i] <= 'z') ||
 			(s[i] >= 'A' && s[i] <= 'Z'); i++)
 	{
 		if ((s[i] >= 'a' && s[i] <= 'm') ||
