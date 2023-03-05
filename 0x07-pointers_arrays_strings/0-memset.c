@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _memset _ set all memory byte to a constant
+ * _memset - set all memory byte to a constant
  * value
  * @s: pointer to an arrray
  * @b: character for the setting
@@ -8,7 +8,7 @@
  * Return: s
  */
 
-char*_memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	int i;
 
