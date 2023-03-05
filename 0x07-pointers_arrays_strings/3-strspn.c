@@ -7,26 +7,21 @@
  * Return: numbero of bytes in the initial
  * segment of s.
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i;
-	int j = 0;
+	unsigned int a;
+	unsigned int b;
 
-	i = 0;
-
-	while (s[j] != '\0')
+	for (a = 0; s[a]; a++)
 	{
-		while (*s++ == *accept++)
+		for (b = 0; accept[b]; b++)
 		{
-			i++;
-			break;
+			if (s[a] == accept[b])
+				break;
 		}
-		if (!accept[i])
-		{
+		if (!accept[b])
 			break;
-		}
-		j++;
 	}
-	return (i);
+
+	return (a);
 }
