@@ -4,7 +4,7 @@
  * _strspn- gets the length of a prefix
  * prefix substring
  * @s: string to be parsed for comparation
- * @accept: string to be compared to 
+ * @accept: string to be compared to
  * Return: numbero of bytes in the initial
  * segment of s.
  */
