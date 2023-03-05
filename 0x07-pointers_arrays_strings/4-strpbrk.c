@@ -20,10 +20,7 @@ char *_strpbrk(char *s, char *accept)
 				return (*s);
 			}
 		}
-		if (*s != accept[i])
-		{
-			return (NULL);
-		}
 	}
+	return (0);
 
 }
