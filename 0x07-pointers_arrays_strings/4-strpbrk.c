@@ -13,22 +13,14 @@ char *_strpbrk(char *s, char *accept)
 
 	while (*s++ != '\0')
 	{
-		for (i = 0; *s; i++)
+		for (i = 0; accept[i] != '\0'; i++)
 		{
 			if (*s == accept[i])
 			{
-				break;
-			}
-			else
-			{
-				continue;
+				return (*s);
 			}
 		}
-		if (*s == accept[i])
-		{
-			return (*s);
-		}
-		else
+		if (*s != accept[i])
 		{
 			return (NULL);
 		}
