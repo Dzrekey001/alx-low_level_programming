@@ -4,6 +4,7 @@
  * print_diagsums - print two diagonal
  * of a square matix integers
  * @a: pointer to array
+ * @size: size of the array
  * Return: Nothing
  */
 
@@ -26,12 +27,12 @@ void print_diagsums(int *a, int size)
 			step_plus += 1;
 			break;
 		}
-		for (b = size-1; b < size && b !< 0; b--)
+		for (b = (size - 1); b < size && b != 0; b--)
 		{
 			result_2 += a[i][step_minus];
 			step_minus -= 1;
 			break;
-		}	
+		}
 	}
 	printf("%i, %i \n", result_1, result_2);
 
