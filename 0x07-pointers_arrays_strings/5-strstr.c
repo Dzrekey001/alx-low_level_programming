@@ -9,9 +9,10 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	int a, i, j, need_len;
+	int i, j, need_len;
 
-	for (need_len = 0; needle[a] != '\0'; need_len++)
+	for (need_len = 0; needle[need_len] != '\0'; 
+			need_len++)
 	{
 	}
 
