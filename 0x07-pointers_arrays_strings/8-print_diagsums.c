@@ -13,7 +13,6 @@ void print_diagsums(int *a, int size)
 	int i, j, b, step;
 	int result_1, result_2;
 
-
 	result_1 = 0;
 	result_2 = 0;
 	step_plus = 0;
@@ -34,6 +33,6 @@ void print_diagsums(int *a, int size)
 			break;
 		}
 	}
-	printf("%i, %i \n", result_1, result_2);
+	printf("%d, %d\n", result_1, result_2);
 
 }
