@@ -10,8 +10,7 @@ int main(int argc, char *argv[])
 {
 	int i, a;
 
-	a = argc -argc;
-
+	a = argc - argc;
 	i = 0;
 
 	while (argv[a] && argv[a][i] != '\0')
