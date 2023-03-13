@@ -71,7 +71,7 @@ int _strlen(char *s)
 char *str_concat(char *s1, char *s2)
 {
 	char *t;
-	int str1_len, str2_len;
+	int str1_len, str2_len, str_size;
 
 	str1_len = _strlen(s1);
 	str2_len = _strlen(s2);
@@ -85,10 +85,6 @@ char *str_concat(char *s1, char *s2)
 	}
 	else
 	{
-		if (s1  == "")
-		{
-			t[0] = "";
-		}
 		_trans(t, str_size, str2_len, s1, s2);
 	}
 	return (t);
