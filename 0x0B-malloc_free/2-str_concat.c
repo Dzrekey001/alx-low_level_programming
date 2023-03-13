@@ -42,6 +42,7 @@ void _trans(t, int str_size, int str2_len, char s1, char s2)
 			}
 			t[i + 1] = '\0';
 		}
+	}
 }
 /**
  * _strlen - return lenght of string
