@@ -17,25 +17,31 @@ void _trans(*t, int str_size, int str2_len, char s1, char s2)
 
 	i = 0;
 	j = 0;
-	while (i < str_size)
+	if (s1  == "")
 	{
-		t[i] = s1[i];
-		i++;
-	}
-	if (s2 == "")
-	{
-		t[i] = "";
+		t[0] = "";
 	}
 	else
 	{
-		while (i < str2_len)
+		while (i < str_size)
 		{
-			t[i] = s2[j];
-			j++;
+			t[i] = s1[i];
 			i++;
 		}
-		t[i + 1] = '\0';
-	}
+		if (s2 == "")
+		{
+			t[i] = "";
+		}
+		else
+		{
+			while (i < str2_len)
+			{
+				t[i] = s2[j];
+				j++;
+				i++;
+			}
+			t[i + 1] = '\0';
+		}
 }
 /**
  * _strlen - return lenght of string
@@ -82,10 +88,7 @@ char *str_concat(char *s1, char *s2)
 		{
 			t[0] = "";
 		}
-		else
-		{
-			_trans(t, str_size, str2_len, s1, s2);
-		}
+		_trans(t, str_size, str2_len, s1, s2);
 	}
 	return (t);
 }
