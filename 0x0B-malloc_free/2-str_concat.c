@@ -18,7 +18,7 @@ void _trans(int str_size, int str2_len,
 
 	i = 0;
 	j = 0;
-	if (s1  == "")
+	if (s1[0]  == "")
 	{
 		t[0] = "";
 	}
@@ -29,7 +29,7 @@ void _trans(int str_size, int str2_len,
 			t[i] = s1[i];
 			i++;
 		}
-		if (s2 == "")
+		if (s2[0] == "")
 		{
 			t[i] = "";
 		}
