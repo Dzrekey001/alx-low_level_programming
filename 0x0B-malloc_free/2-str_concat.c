@@ -11,8 +11,8 @@
  * Return: nothing
  */
 
-void _trans(t, int str_size, int str2_len, 
-		char s1, char s2)
+void _trans(int str_size, int str2_len, 
+		char s1, char s2i, *t)
 {
 	int i, j;
 
@@ -86,7 +86,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	else
 	{
-		_trans(t, str_size, str2_len, s1, s2);
+		_trans(istr_size, str2_len, s1, s2, t);
 	}
 	return (t);
 }
