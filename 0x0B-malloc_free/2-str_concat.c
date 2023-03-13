@@ -11,7 +11,7 @@
  * Return: nothing
  */
 
-void _trans(*t, int str_size, int str2_len, 
+void _trans(t, int str_size, int str2_len, 
 		char s1, char s2)
 {
 	int i, j;
