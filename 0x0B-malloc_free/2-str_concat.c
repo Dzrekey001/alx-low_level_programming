@@ -40,8 +40,8 @@ void _trans(t, int str_size, int str2_len, char s1, char s2)
 				j++;
 				i++;
 			}
-			t[i + 1] = '\0';
 		}
+		t[i + 1] = '\0';
 	}
 }
 /**
@@ -54,7 +54,7 @@ int _strlen(char *s)
 {
 	int len = 0;
 
-	while (s[i] != '\0')
+	while (s[len] != '\0')
 	{
 		len++;
 	}
