@@ -12,7 +12,7 @@
  */
 
 void _trans(int str_size, int str2_len, 
-		char s1, char s2, *t)
+		char s1, char s2,char *t)
 {
 	int i, j;
 
