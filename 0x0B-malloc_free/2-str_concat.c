@@ -1,50 +1,5 @@
 #include <stdlib.h>
 #include "main.h"
-
-/**
- * _trans - transfer string from s1 to s2
- * @t: pointer to the allocated memory
- * @str2_len: lenght of string 2
- * @str_size: total string size
- * @s1: string 1
- * @s2: string 2
- * Return: nothing
- */
-
-void _trans(int str_size, int str2_len, 
-		char s1, char s2,char *t)
-{
-	int i, j;
-
-	i = 0;
-	j = 0;
-	if (s1[0]  == "")
-	{
-		t[0] = "";
-	}
-	else
-	{
-		while (i < str_size)
-		{
-			t[i] = s1[i];
-			i++;
-		}
-		if (s2[0] == "")
-		{
-			t[i] = "";
-		}
-		else
-		{
-			while (i < str2_len)
-			{
-				t[i] = s2[j];
-				j++;
-				i++;
-			}
-		}
-		t[i + 1] = '\0';
-	}
-}
 /**
  * _strlen - return lenght of string
  * @s: string to be countered
@@ -61,6 +16,7 @@ int _strlen(char *s)
 	}
 	return (len);
 }
+
 /**
  * str_concat - return a pointer to two contatenated
  * string in memory
@@ -72,21 +28,34 @@ int _strlen(char *s)
 char *str_concat(char *s1, char *s2)
 {
 	char *t;
-	int str1_len, str2_len, str_size;
 
-	str1_len = _strlen(s1);
-	str2_len = _strlen(s2);
-	str_size = str1_len + str2_len;
+	if (s1 == NULL || s2 == NULL)
+	{
+		if (s1)
+			s1 = "";
+		else
+			s2 = "";
+	}
 
-	t = malloc(sizeof(char) * (str_size + 1));
+	t_len = _strlen(s1) + _strlen(s2);
+	t = malloc(sizeof(char) * (t_len + 1));
 
-	if (t == NULL)
+	if (t == 0)
 	{
 		return (NULL);
 	}
-	else
+
+
+	i = 0;
+
+	for (; i < _strlen(s1); i++)
 	{
-		_trans(str_size, str2_len, s1, s2, t);
+		t[i] = s1[i];
+	}
+	for (j = 0; j < _strlen(s2); j++)
+	{
+		t[i] = s2[j];
+		i++;
 	}
 	return (t);
 }
