@@ -1,3 +1,4 @@
+
 #include "main.h"
 /**
  * argstostr - prints args
@@ -41,4 +42,3 @@ char *argstostr(int ac, char **av)
 	}
 	return (str);
 }
-
