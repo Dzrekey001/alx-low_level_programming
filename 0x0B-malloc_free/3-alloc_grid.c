@@ -6,6 +6,7 @@
  * @height: height of array
  * Return: Null on failure, Null inf width and height is 0
  */
+
 int **alloc_grid(int width, int height)
 {
 /*Declaring variables*/
@@ -41,4 +42,4 @@ for (i = 0; j < width; j++)
 grid[i][j] = 0;
 return (grid);
 }
-int **alloc_grid(int width, int height)
+
