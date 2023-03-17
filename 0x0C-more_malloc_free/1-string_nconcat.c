@@ -6,7 +6,7 @@
  * Return: lenght of string
  */
 
-int _len(char c)
+int _len(char *c)
 {
 	int i;
 
@@ -27,6 +27,7 @@ int _len(char c)
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *t;
+	int len_1, len_2;
 
 	if (s1 == NULL)
 		s1 = "";
@@ -36,7 +37,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	len_1 = _len(s1);
 	len_2 = _len(s2);
 
-	if (!(n > len_s2))
+	if (!(n > len_2))
 	{
 		len_2 = n;
 	}
