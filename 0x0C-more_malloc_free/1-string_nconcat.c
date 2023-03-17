@@ -8,7 +8,7 @@
 
 int _len(char *c)
 {
-	int i;
+	unsigned int i;
 
 	for (i = 0; c[i] != '\0'; i++)
 	{
@@ -50,7 +50,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	else
 	{
-		int i, j;
+		unsigned int i, j;
 
 		for (i = 0; i < len_1; i++)
 		{
