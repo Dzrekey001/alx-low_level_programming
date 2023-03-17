@@ -27,7 +27,7 @@ int _len(char *c)
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *t;
-	int len_1, len_2;
+	unsigned int len_1, len_2;
 
 	if (s1 == NULL)
 		s1 = "";
