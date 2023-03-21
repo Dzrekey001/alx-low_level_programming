@@ -10,8 +10,8 @@
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *new_d;
-	char cp_name, cp_owner;
+	dog_t *new_dog;
+	char *cp_name, *cp_owner;
 	int len_name = 0, len_owner = 0, i;
 
 	if (name == NULL || owner == NULL)
