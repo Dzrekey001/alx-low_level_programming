@@ -5,9 +5,9 @@
  * @head: head of a linked list
  * Return: no return.
  */
-void free_list_in(listp_t **head)
+void free_list_in(listint_t **head)
 {
-	listp_t *temp, temp2;
+	listint_t *temp, temp2;
 
 	if (head != NULL)
 	{
@@ -36,7 +36,7 @@ size_t free_listint_safe(listint_t **h)
 	hptr = NULL;
 	while (*h != NULL)
 	{
-		new = malloc(sizeof(listp_t));
+		new = malloc(sizeof(listint_t));
 
 		if (new == NULL)
 			exit(98);
