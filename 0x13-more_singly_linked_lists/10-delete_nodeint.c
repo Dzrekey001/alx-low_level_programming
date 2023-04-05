@@ -2,7 +2,7 @@
 /**
  * delete_nodeint_at_index - delete a node a specific index
  * @head: head to the linked list
- * @index: index to delete 
+ * @index: index to delete
  * Return: 1 if successful or -1 if failed
  */
 
@@ -21,7 +21,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		previous = *head;
 		i = index - 1;
 
-		for (;count < i; count++)
+		for (; count < i; count++)
 		{
 			previous = previous->next;
 		}
