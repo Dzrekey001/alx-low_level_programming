@@ -14,10 +14,10 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
-typedef struct listp_s
+typedef struct listpointer_s
 {
 	void *p;
-	struct listp_s *next;
+	struct listpointer_s *next;
 } listpointer_t;
 
 size_t print_listint(const listint_t *h);
