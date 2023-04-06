@@ -6,10 +6,9 @@
  */
 size_t free_listint_safe(listint_t **h)
 {
-	size_t count = 0;
 	listint_t *current, *temp;
 	listint_t **addresses = NULL;
-	size_t i, j, found;
+	size_t i, j, found, count;
 
 	if (h == NULL || *h == NULL)
 		return (0);
@@ -17,7 +16,7 @@ size_t free_listint_safe(listint_t **h)
 	{
 		current = *h;
 		found = 0;
-		for (i = 0; i < count; i++)
+		for (count = 0, i = 0; i < count; i++)
 		{
 			if (current == addresses[i])
 			{
@@ -40,7 +39,6 @@ size_t free_listint_safe(listint_t **h)
 			*h = NULL;
 			break;
 		}
-
 		*h = temp;
 	}
 	for (j = 0; j < count; j++)
