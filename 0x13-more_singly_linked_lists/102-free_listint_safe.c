@@ -9,7 +9,7 @@ size_t free_listint_safe(listint_t **h)
 	size_t count = 0;
 	listint_t *current, *temp;
 	listint_t **addresses = NULL;
-	int i, j, found;
+	size_t i, j, found;
 
 	if (h == NULL || *h == NULL)
 		return (0);
