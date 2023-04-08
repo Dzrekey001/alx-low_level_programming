@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * get_bit - checks and return the bit at a given index
  * @n: decimal number to be checked
