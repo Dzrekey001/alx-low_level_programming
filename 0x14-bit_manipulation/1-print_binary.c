@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_binary - print binary representation of a number
+ * print_binary_1 - print binary representation of a number
  * @n: number to be converted
  * Return: Nothing
  */
