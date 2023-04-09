@@ -24,10 +24,10 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 
 	open_text = open(filename, O_RDONLY);
-	read_text = read(open_text , buffer, letters);
+	read_text = read(open_text, buffer, letters);
 	write_text = write(STDOUT_FILENO, buffer, read_text);
 
-	if (open_text == -1 || read_text == -1 || write_text == -1 
+	if (open_text == -1 || read_text == -1 || write_text == -1
 			|| read_text != write_text)
 	{
 		free(buffer);
