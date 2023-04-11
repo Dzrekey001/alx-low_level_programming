@@ -35,7 +35,7 @@ int main(int argc, char **argv)
 		write_c = write(to_file, buffer, read_c);
 		if (write_c == -1)
 			open_error("Error: Can't write to", argv[2], 99);
-	}while (read_c == 1024);
+	} while (read_c == 1024);
 
 	close_c = close(from_file);
 	if (close_c == -1)
