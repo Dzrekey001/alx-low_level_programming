@@ -27,3 +27,7 @@ Next, move on to more advanced concepts like pointers, memory allocation, file i
 **Conclusion**
 Learning C programming can be challenging but rewarding. With the right resources and a commitment to practice,
 you can become proficient in this powerful language and develop complex software applications.
+***
+**Author**
+***
+This repository was created by me as part of my coursework for the ALX Software Engineering program.
