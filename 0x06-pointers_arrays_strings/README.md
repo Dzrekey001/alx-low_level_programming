@@ -26,7 +26,7 @@ The following tasks are implemented in this repository:
 
 | **Task**         |                    **Description**                    |
 |------------------|-------------------------------------------------------|
-| 0	_strcat        |Row 1Concatenates two strings                          |
+| 0	_strcat        |Concatenates two strings                               |
 | 1	_strncat       |Concatenates two strings up to n bytes                 |
 | 2	_strncpy       |Copies a string up to n bytes                          |
 | 3	_strcmp        |Compares two strings                                   |
@@ -43,7 +43,7 @@ The following tasks are implemented in this repository:
 Clone the repository:
 
 
-$ git clone https://github.com/<Dkdzrekey001/alx-low_level_programming.git
+$ git clone <https://github.com/<Dkdzrekey001/alx-low_level_programming.git>
 
 Navigate to the project directory:
 $ cd alx-low_level_programming/0x06-pointers_arrays_strings/
