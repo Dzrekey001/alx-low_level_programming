@@ -1,21 +1,26 @@
-Description
-This repository contains solutions to the "0x06. C - More pointers, arrays, and strings" project, which is part of the low-level programming curriculum of the ALX Software Engineering program.
+**Description**
+This repository contains solutions to the "0x06. C - More pointers, arrays, and strings" project, 
+which is part of the low-level programming curriculum of the ALX Software Engineering program.
 
 The project consists of a series of C functions that perform various operations on strings, pointers, and arrays.
 
-Project Requirements
-Allowed editors: vi, vim, emacs
-All files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-All files should end with a new line
-A README.md file, at the root of the folder of the project is mandatory
-Code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-Not allowed to use global variables
-No more than 5 functions per file
-Not allowed to use the standard library. Any use of functions like printf, puts, etc… is forbidden
-Allowed to use _putchar
-The prototypes of all functions and the prototype of the function _putchar should be included in the header file called main.h
-Don’t forget to push the header file
-Project Tasks
+***
+**Project Requirements**
+
+1. Allowed editors: vi, vim, emacs
+2. All files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+3. All files should end with a new line
+4. A README.md file, at the root of the folder of the project is mandatory
+5. Code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+6. Not allowed to use global variables
+7. No more than 5 functions per file
+8. Not allowed to use the standard library. Any use of functions like printf, puts, etc… is forbidden
+9. Allowed to use _putchar
+10. The prototypes of all functions and the prototype of the function _putchar should be included in the header file called main.h
+11. Don’t forget to push the header file
+
+
+**Project Tasks**
 The following tasks are implemented in this repository:
 
 
@@ -30,6 +35,8 @@ The following tasks are implemented in this repository:
 | 6	cap_string     |Capitalizes all words of a string                      |
 | 7	leet           |Encodes a string into 1337                             |
 | 8	rot13          |Encodes a string using rot13                           |
+
+
 
 ***
 **Usage**
