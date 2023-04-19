@@ -54,3 +54,7 @@ Some popular books for learning C programming include:
 C programming is a powerful and versatile language that is widely used in various domains. 
 It provides a solid foundation in programming concepts and is a great language to start with if you are new to programming. 
 With various resources available online and offline, it is easy to get started with C programming and develop your skills in this language.
+
+***
+**Autho**
+This repository was created by me as part of my coursework for the ALX Software Engineering program.
