@@ -43,7 +43,7 @@ The following tasks are implemented in this repository:
 Clone the repository:
 
 
-$ git clone <https://github.com/<Dkdzrekey001/alx-low_level_programming.git>
+$ git clone <https://github.com/Dkdzrekey001/alx-low_level_programming.git>
 
 Navigate to the project directory:
 $ cd alx-low_level_programming/0x06-pointers_arrays_strings/
