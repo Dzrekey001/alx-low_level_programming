@@ -1,4 +1,5 @@
 #include "lists.h"
+
 /**
  * free_dlistint - frees all linked list
  * @head: head to the linked list
@@ -7,7 +8,7 @@
 
 void free_dlistint(dlistint_t *head)
 {
-	dlistint *next;
+	dlistint_t *next;
 
 	while (head->next != NULL)
 	{
