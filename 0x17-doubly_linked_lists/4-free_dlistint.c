@@ -1,0 +1,18 @@
+#include "lists.h"
+/**
+ * free_dlistint - frees all linked list
+ * @head: head to the linked list
+ * Return: Always Nothing
+ */
+
+void free_dlistint(dlistint_t *head)
+{
+	dlistint *next;
+
+	while (head->next != NULL)
+	{
+		next = head->next;
+		free(head);
+		head = next;
+	}
+}
